@@ -1,0 +1,14 @@
+{
+    "name": "mega6382/rest-api-wrapper",
+    "description": "A Curl Wrapper for RESTful APIs",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Haseeb A. Basil",
+            "email": "haseeb.basil@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
