@@ -9,6 +9,6 @@
             "email": "haseeb.basil@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
