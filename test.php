@@ -1,9 +1,9 @@
 <?php
-include 'index.php';
+include 'vendor/autoload.php';
 
 $url = "https://requestb.in/";
 
-$raw = new restApiWrapper($url);
+$raw = new raw\restApiWrapper($url);
 
 //Sending a POST Request, with Params, custom headers and return type Json decoded Object
 $request1 = $raw->post(
