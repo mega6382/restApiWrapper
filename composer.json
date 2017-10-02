@@ -9,6 +9,11 @@
             "email": "haseeb.basil@gmail.com"
         }
     ],
+	"autoload": {
+		"psr-4": {
+		  "raw\\":"src/"
+		}
+	},
     "minimum-stability": "dev",
     "require": {}
 }
