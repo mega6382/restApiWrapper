@@ -6,7 +6,6 @@ To Install use composer:
     composer require mega6382/rest-api-wrapper
 
 ## Quick Examples
-___
 
 #### Create a restApiWrapper instance
 
