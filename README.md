@@ -31,14 +31,14 @@ $request = $raw->post(
         );
 var_dump($request);
 ````
-### Send a GET Request, without any Params or Custom Headers and return String
+#### Send a GET Request, without any Params or Custom Headers and return String
 
 ````PHP
 $request = $raw->get('ufkbi1uf', [], [], '');
 var_dump($request);
 ````
 
-### Send a OPTIONS Request, with Params, but no Custom headers and return will be a string
+#### Send a OPTIONS Request, with Params, but no Custom headers and return will be a string
 
 ````PHP
 $request = $raw->options('ufkbi1uf', ['name' => 'basil'], [], '');
